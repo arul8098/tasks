@@ -1,0 +1,29 @@
+HTTP 1.1 And HTTP 2 Difference:
+   HTTP1.1 :
+    1.we must use to ordered and blocking.
+	2.it will use get a data from server with each TCP  connection.
+	3.implementation of  http 1.1 cannot convert to binary to the network.
+
+    HTTP 2:
+    1.it may or may not be in ordered and blocking.
+    2.request multiplexing over a single TCP connection.
+    3.implementation will convert the same text commands into binary before transmitting it over the network.
+	
+	
+OBJECT  IN JAVASCRIPT:
+  Creating object:
+     syntax: var name =value;
+ eg:var car=audii;
+   Creating object with many values:
+     syntax: var name={
+	     key=vauue,.........key n=value n};
+     eg;
+    var car={
+        name: audii,
+        model:a6,
+        color:black};
+	How to access object:
+	
+	syntax:  Console.log(name.key);
+     eg:
+          console.log(car.model);	 
