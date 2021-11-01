@@ -1,0 +1,25 @@
+List 5 difference between Browser JS(console) v Nodejs:
+    Browser JS(console):
+	   1.location is the predefined object in the browser.
+	   2.Browsers have an object named “global”, but it will be the exact one as “window”.
+	   3.doument is the one of the global variable in window.
+       4.window is also the predefined object which hac function and attributes.
+       5.it will be execute in line by line.	   
+    Nodejs:
+	   1.location is the particular url.but node doesn't need it.
+	   2.global which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works only.
+	   3.document is no needed in node because it never have to render anything in page.
+	   4.node doesn't have window object.
+	   5.it also execute in order.
+	   
+Execute the below code and write your description in txt file
+typeof(1)= number
+typeof(1.1)=number.
+typeof('1.1')=String
+typeof(true)=boolean
+typeof(null)=object
+typeof(undefined)=undefined.
+typeof([])=object.
+typeof({})=object.
+typeof(NaN)=number.
+	   
